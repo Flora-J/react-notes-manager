@@ -1,5 +1,10 @@
+import { NoteForm } from "components/NoteForm/NoteFrom";
 import s from "./style.module.css";
 
 export function NoteCreate(props) {
-  return <>Note create</>;
+  return (
+    <>
+      <NoteForm title="Create a note" />
+    </>
+  );
 }
